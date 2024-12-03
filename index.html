@@ -92,7 +92,7 @@
       <div
         class="h-screen bg-opacity-50 bg-black flex items-left justify-center flex-col"
       >
-        <div class="text-center max-2xl:px-20 max-sm:px-4 mt-40">
+        <div class="text-center px-10 max-[496px]:px-4 mt-40">
           <h1
             class="text-left animate-fadeInUp text-white text-2xl md:text-5xl"
           >
@@ -194,7 +194,7 @@
         class="inline-block px-8 py-4 text-lg font-bold text-white bg-red-500 hover:bg-green-600 rounded-full transition duration-300 shadow-lg"
         aria-label="Написать в WhatsApp"
       >
-        Написать в WhatsApp
+        Связаться со мной
       </a>
     </div>
     <section
@@ -260,27 +260,6 @@
                 стилем.
                 <span class="font-medium">.</span>
               </span>
-            </p>
-          </div>
-          <!-- Услуга 2 -->
-          <div
-            class="px-6 py-2 bg-white/70 shadow-lg border-slate-800 border rounded-3xl hover:shadow-xl transition duration-300"
-          >
-            <h3 class="text-2xl font-sans text-slate-800">
-              Производство товаров под вашим брендом<br />
-              <span class="text-sm font-thin line-clamp-2"
-                >Мечтаете создать свою коллекцию? Это реально<span
-                  class="font-medium"
-                  >!</span
-                >
-              </span>
-            </h3>
-            <div class="w-1/2 h-[1px] bg-slate-500 my-2"></div>
-            <p class="text-gray-700 font-[100] text-md">
-              - Найду фабрику для работы по вашим лекалам или фото.
-              <br />
-              - Организую пошив тестового образца. <br />
-              - Лично проверю каждый этап: от материалов до упаковки.
             </p>
           </div>
 
@@ -553,73 +532,111 @@
         </a>
       </section>
     </div>
-    <section id="reviews" class="container mx-auto py-12">
-      <h2 class="text-4xl font-serif text-center mb-12">Отзывы</h2>
-      <div class="flex gap-6 overflow-x-auto scroll-smooth p-8">
-        <div class="flex-shrink-0 p-2 bg-white shadow-lg rounded-lg">
+    <h2 class="text-4xl font-serif text-center mb-12">Отзывы</h2>
+    <section
+      id="carouselReviews"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <ol class="carousel-indicators">
+        <li
+          data-target="#carouselExampleIndicators"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
+      </ol>
+      <div class="carousel-inner flex gap-6 p-8">
+        <div class="flex-shrink-0 p-2 bg-zinc-200 shadow-lg rounded-lg carousel-item active">
           <img
             src="./img/01.png"
             alt="Отзыв 1"
-            class="w-64 h-auto rounded-lg"
+            class="w-full h-auto rounded-lg"
           />
         </div>
-        <div class="flex-shrink-0 p-2 bg-white shadow-lg rounded-lg">
+        <div class="flex-shrink-0 p-2 bg-zinc-200 shadow-lg rounded-lg carousel-item">
           <img
             src="./img/02.png"
             alt="Отзыв 2"
-            class="w-64 h-auto rounded-lg"
+            class="w-full h-auto rounded-lg"
           />
         </div>
-        <div class="flex-shrink-0 p-2 bg-white shadow-lg rounded-lg">
+        <div class="flex-shrink-0 p-2 bg-zinc-200 shadow-lg rounded-lg carousel-item">
           <img
             src="./img/03.png"
             alt="Отзыв 3"
-            class="w-64 h-auto rounded-lg"
+            class="w-full h-auto rounded-lg"
           />
         </div>
-        <div class="flex-shrink-0 p-2 bg-white shadow-lg rounded-lg">
+        <div class="flex-shrink-0 p-2 bg-zinc-200 shadow-lg rounded-lg carousel-item">
           <img
             src="./img/04.png"
             alt="Отзыв 4"
-            class="w-64 h-auto rounded-lg"
+            class="w-full h-auto rounded-lg"
           />
         </div>
-        <div class="flex-shrink-0 p-2 bg-white shadow-lg rounded-lg">
+        <div class="flex-shrink-0 p-2 bg-zinc-200 shadow-lg rounded-lg carousel-item">
           <img
             src="./img/05.png"
             alt="Отзыв 5"
-            class="w-64 h-auto rounded-lg"
+            class="w-full h-auto rounded-lg"
           />
         </div>
-        <div class="flex-shrink-0 p-2 bg-white shadow-lg rounded-lg">
+        <div class="flex-shrink-0 p-2 bg-zinc-200 shadow-lg rounded-lg carousel-item">
           <img
             src="./img/06.png"
             alt="Отзыв 6"
-            class="w-64 h-auto rounded-lg"
+            class="w-full h-auto rounded-lg"
           />
         </div>
-        <div class="flex-shrink-0 p-2 bg-white shadow-lg rounded-lg">
+        <div class="flex-shrink-0 p-2 bg-zinc-200 shadow-lg rounded-lg carousel-item">
           <img
             src="./img/07.png"
             alt="Отзыв 7"
-            class="w-64 h-auto rounded-lg"
+            class="w-full h-auto rounded-lg"
           />
         </div>
-        <div class="flex-shrink-0 p-2 bg-white shadow-lg rounded-lg">
+        <div class="flex-shrink-0 p-2 bg-zinc-200 shadow-lg rounded-lg carousel-item">
           <img
             src="./img/08.png"
             alt="Отзыв 8"
-            class="w-64 h-auto rounded-lg"
+            class="w-full h-auto rounded-lg"
           />
         </div>
-        <div class="flex-shrink-0 p-2 bg-white shadow-lg rounded-lg">
+        <div class="flex-shrink-0 p-2 bg-zinc-200 shadow-lg rounded-lg carousel-item">
           <img
             src="./img/09.png"
             alt="Отзыв 9"
-            class="w-64 h-auto rounded-lg"
+            class="w-full h-auto rounded-lg"
           />
         </div>
       </div>
+      <a
+        class="carousel-control-prev"
+        href="#carouselReviews"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselReviews"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </section>
 
     <section class="my-16 py-12">
@@ -629,10 +646,7 @@
       <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div class="relative flex justify-center">
           <!-- Верхний div (контентный элемент) -->
-          <div
-            class="relative w-full h-96 rounded-3xl bg-cover shadow-xl"
-            style="background-image: url('./img/IMG_7834.JPG'); z-index: 2"
-          ></div>
+          <img src="./img/IMG_7834.JPG" alt="" class="w-96 rounded-3xl" />
         </div>
 
         <div>
@@ -743,10 +757,10 @@
       <a
         href="https://wa.me/375297174741"
         target="_blank"
-        class="inline-block px-8 py-4 text-lg font-bold text-white bg-red-500 hover:bg-green-600 rounded-full transition duration-300 shadow-lg"
+        class="inline-block px-8 py-4 text-xl font-extrabold text-white bg-red-500 hover:bg-green-600 rounded-full transition duration-300 shadow-lg"
         aria-label="Написать в WhatsApp"
       >
-        Написать в WhatsApp
+        Закупить от 1500$ и получить тур в Турцию в подарок!
       </a>
     </div>
     <div class="flex items-center justify-center sm:p-10 md:p-20 mt-10">
@@ -770,12 +784,11 @@
         <div class="flex flex-col items-start">
           <p class="text-lg font-serif leading-relaxed mb-4">
             📩 Напишите мне прямо сейчас! Я помогу превратить ваши бизнес-идеи в
-            реальность. <br />✨ Стамбул — это не только любовь, но и
-            возможности для вашего успеха!
+            реальность. <br />✨ Турция - не только бизнес, но и отдых!
             <br />
             Телефон:
             <a href="tel:+375297174741" class="underline hover:text-gray-300"
-              >375297174741</a
+              >+375297174741</a
             ><br />
             Email:
             <a
@@ -787,7 +800,7 @@
         </div>
 
         <div class="flex flex-col">
-          <h3 class="text-3xl font-semibold mb-4">Мы в соцсетях</h3>
+          <h3 class="text-3xl font-semibold mb-4">Я в соцсетях</h3>
           <div class="flex space-x-4">
             <a href="https://wa.me/375297174741" target="_blank">
               <ion-icon
@@ -796,7 +809,7 @@
               ></ion-icon>
             </a>
             <a
-              href="https://www.instagram.com/asia_facemassage?igsh=ZHU1cW13ZWZnb245"
+              href="https://www.instagram.com/juliz.turkey?igsh=MXJubmllYTlteTFoNA%3D%3D&utm_source=qr"
               target="_blank"
             >
               <ion-icon
@@ -826,7 +839,10 @@
     <div
       class="border-t border-white/30 py-4 mt-8 bg-zinc-900 text-center text-zinc-500 text-sm absolute left-0 w-full"
     >
-      © 2024 Juliya. Все права защищены.
+      © 2024 Julizturkey. Cайт разработан командой
+      <a class="font-semibold text-xs text-zinc-300" href="https://www.instagram.com/ascending_sales_online/"
+        >https://www.instagram.com/ascending_sales_online/</a
+      >.
     </div>
 
     <script>
