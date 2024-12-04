@@ -17,7 +17,7 @@ html {
 }
 header {
   background-size: cover;
-  background-position: center;
+  background-position: 50% 0%; /* Центр по горизонтали и верх по вертикали */
   background-repeat: no-repeat;
 }
 #contact-me a {
