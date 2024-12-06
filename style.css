@@ -18,7 +18,8 @@ h2,
 h3,
 strong,
 li,
-ul {
+ul,
+span {
   font-family: serif;
 }
 html {
